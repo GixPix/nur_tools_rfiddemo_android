@@ -1,9 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Legacy colors (keep for compatibility) -->
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
     <color name="StatusGreen">#27AE60</color>
     <color name="StatusOrange">#f4b744</color>
     <color name="StatusRed">#c0392b</color>
+    
+    <!-- Professional Temperature App Colors -->
+    <color name="temp_primary">#1A237E</color>           <!-- Deep blue -->
+    <color name="temp_primary_light">#3F51B5</color>      <!-- Medium blue -->
+    <color name="temp_surface">#FFFFFF</color>            <!-- White surface -->
+    <color name="temp_surface_variant">#F5F7FA</color>    <!-- Light gray surface -->
+    <color name="temp_on_surface">#1C1C1E</color>         <!-- Dark text -->
+    <color name="temp_on_surface_variant">#6C7B7F</color> <!-- Gray text -->
+    <color name="temp_divider">#E5E5EA</color>            <!-- Light divider -->
+    
+    <!-- Temperature Status Colors -->
+    <color name="temp_cold">#007AFF</color>               <!-- Cold blue -->
+    <color name="temp_normal">#34C759</color>             <!-- Normal green -->
+    <color name="temp_warm">#FF9500</color>               <!-- Warm orange -->
+    <color name="temp_hot">#FF3B30</color>                <!-- Hot red -->
+    <color name="temp_error">#FF3B30</color>              <!-- Error red -->
+    <color name="temp_reading">#6C7B7F</color>            <!-- Reading gray -->
+    
+    <!-- Action Colors -->
+    <color name="action_scan">#007AFF</color>             <!-- Scan blue -->
+    <color name="action_read">#34C759</color>             <!-- Read green -->
+    <color name="action_export">#FF9500</color>           <!-- Export orange -->
+    <color name="action_disabled">#C7C7CC</color>         <!-- Disabled gray -->
 </resources>

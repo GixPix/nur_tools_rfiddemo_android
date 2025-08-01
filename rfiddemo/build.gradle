@@ -2,7 +2,7 @@ apply plugin: 'com.android.application'
 
 android {
     namespace "com.nordicid.rfiddemo"
-    compileSdk 33
+    compileSdk 34
     defaultConfig {
         applicationId "com.nordicid.rfiddemo"
 
@@ -84,10 +84,14 @@ dependencies {
     implementation 'no.nordicsemi.android.support.v18:scanner:1.6.0'
     implementation 'no.nordicsemi.android:dfu:2.3.0'
     implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+    implementation 'com.google.android.material:material:1.10.0'
     testImplementation 'junit:junit:4.13.2'
     implementation 'androidx.documentfile:documentfile:1.1.0-alpha01';
 
     androidTestImplementation 'androidx.test:core:1.5.0'
     androidTestImplementation 'androidx.test.ext:junit:1.1.5'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.5.1'
+
+    implementation 'androidx.localbroadcastmanager:localbroadcastmanager:1.0.0'
 }

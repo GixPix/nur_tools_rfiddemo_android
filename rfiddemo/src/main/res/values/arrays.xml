@@ -37,26 +37,26 @@
     </string-array>
     
     <string-array name="tx_level_entries_1W">
-        <item>1000 mW</item>
-        <item>794 mW</item>
-        <item>631 mW</item>
-        <item>501 mW</item>
-        <item>398 mW</item>
-        <item>316 mW</item>
-        <item>251 mW</item>
-        <item>200 mW</item>
-        <item>158 mW</item>
-        <item>126 mW</item>
-        <item>100 mW</item>
-        <item>79 mW</item>
-        <item>63 mW</item>
-        <item>50 mW</item>
-        <item>40 mW</item>
-        <item>32 mW</item>
-        <item>25 mW</item>
-        <item>20 mW</item>
-        <item>16 mW</item>
-        <item>13 mW</item>
+        <item>27 dBm</item>
+        <item>26 dBm</item>
+        <item>25 dBm</item>
+        <item>24 dBm</item>
+        <item>23 dBm</item>
+        <item>22 dBm</item>
+        <item>21 dBm</item>
+        <item>20 dBm</item>
+        <item>19 dBm</item>
+        <item>18 dBm</item>
+        <item>17 dBm</item>
+        <item>16 dBm</item>
+        <item>15 dBm</item>
+        <item>14 dBm</item>
+        <item>13 dBm</item>
+        <item>12 dBm</item>
+        <item>11 dBm</item>
+        <item>10 dBm</item>
+        <item>9 dBm</item>
+        <item>8 dBm</item>
     </string-array>
 
     <string-array name="rfprofile_entries">
@@ -199,6 +199,28 @@
     <string-array name="locate_tag_data_trans_entries">
         <item>HEX</item>
         <item>ASCII</item>
+    </string-array>
+
+    <string-array name="tx_level_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
     </string-array>
 
 </resources>

@@ -10,6 +10,14 @@
         <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
     </style>
 
+    <style name="AppTheme" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowBackground">@android:color/white</item>
+        <item name="android:typeface">monospace</item>
+        <item name="android:actionMenuTextColor">@android:color/white</item>
+        <item name="android:textColor">@android:color/black</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+    </style>
+
     <style name="ActionBar" parent="@android:style/Widget.Holo.Light.ActionBar.Solid.Inverse">
         <item name="titleTextColor">@color/button_fg</item>
         <item name="android:background">@drawable/orange_border_bottom_blackfill</item>

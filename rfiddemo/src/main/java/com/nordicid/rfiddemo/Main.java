@@ -538,6 +538,8 @@ public class Main extends AppTemplate {
         /* Reader settings application. */
         subAppList.addSubApp(new SettingsAppTabbed());
 
+        subAppList.addSubApp(new TemperatureApp());
+
         setAppListener(new NurApiListener() {
             @Override
             public void disconnectedEvent() {
